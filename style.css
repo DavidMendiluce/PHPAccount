@@ -1,0 +1,185 @@
+
+.ulContainer {
+  display: center;
+  text-align: center;
+  width: 100%;
+}
+
+nav {
+  background-color:rgba(143, 143, 143, 0.5);
+  height: 60vh;
+}
+
+ul {
+  display: inline-flex;
+  justify-content: center;
+  background-color:rgba(143, 143, 143, 1);
+  width: 100%;
+  height: 6vh;
+}
+
+li {
+  list-style-type: none;
+  padding: 1vh 10vh;
+  border-left: 1px solid black;
+}
+
+.aboutus {
+  border-right: 1px solid black;
+}
+
+a {
+  text-decoration: none;
+  font-size: 3vh;
+  color: black;
+}
+
+a:visited{
+  color: black;
+}
+
+
+
+.wraper-main {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  top: 10vh;
+  height: 20vh;
+}
+
+.section-default {
+  display: row;
+  justify-content: row;
+}
+
+input[name="mailuid"] {
+  position: relative;
+  top: 2vh;
+  left: 25vh;
+  width: 30vh;
+  height: 3vh;
+}
+
+input[name="mail"] {
+  position: relative;
+  top: -2vh;
+  left: 25vh;
+  width: 30vh;
+  height: 3vh;
+}
+
+input[name="uid"] {
+  position: relative;
+  top: -8vh;
+  left: 55.8vh;
+  width: 30vh;
+  height: 3vh;
+}
+
+
+input[name="pwd-repeat"] {
+  position: relative;
+  top: 10vh;
+  right: 36.8vh;
+  width: 30vh;
+  height: 3vh;
+}
+
+input[name="pwd"] {
+  position: relative;
+  right: 5.9vh;
+  width: 30vh;
+  height: 3vh;
+  top: 7vh;
+}
+
+#pwdSign {
+  position: relative;
+  right: 5.8vh;
+  width: 30vh;
+  height: 3vh;
+  top: 4vh;
+}
+
+button[name="login-submit"] {
+  position: relative;
+  top: 15vh;
+  right: 31vh;
+  width: 20vh;
+}
+
+.signup {
+  position: relative;
+  top: 8vh;
+  left: 25vh;
+  font-size: 1.8vh;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+h1 {
+  position: relative;
+  right: 1vh;
+  top: 7vh;
+  font-size: 6vh;
+  margin: 0 0;
+}
+
+ .sign {
+  position: relative;
+  top: -9vh;
+  left: 62vh;
+}
+
+p {
+  position: relative;
+  bottom: 5vh;
+  font-size: 5vh;
+}
+
+.signuperror{
+  position: relative;
+  font-size: 2.5vh;
+  right: 1vh;
+  text-align: center;
+  bottom: 11vh;
+  color: red;
+}
+
+.loginsuccess {
+  position: relative;
+  font-size: 2.5vh;
+  right: 1vh;
+  text-align: center;
+  bottom: 5vh;
+  color: green;
+}
+
+.signupsuccessful {
+  position: relative;
+  top: -8vh;
+  font-size: 2.5vh;
+  right: 1vh;
+  text-align: center;
+  bottom: 5vh;
+  color: green;
+}
+
+button[name="logout-submit"] {
+  position: relative;
+  top: 10vh;
+  right: 1vh;
+  width: 20vh;
+
+}
+
+button[name="signup-submit"] {
+  position: relative;
+  top: 17vh;
+  right: 62vh;
+  width: 20vh;
+
+}
