@@ -20,6 +20,7 @@
       <li><a href="index.php">Home</a></li>
       <li><a href="#">Help</a></li>
       <li><a href="#">Contact</a></li>
+      <li class="about"><a href="#">About</a></li>
       <li class="aboutus"><a href="#">About us</a></li>
     </ul>
        <h1>Welcome</h1>
@@ -27,7 +28,7 @@
     <div class="wraper-main">
       <section class="section-default">
         <?php
-
+          error_reporting(0);
           if (isset($_SESSION['userId'])) {
             echo '<form action="includes/logout.inc.php" method="post">
               <button type="submit" name="logout-submit">Logout</button>
