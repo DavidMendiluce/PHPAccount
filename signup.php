@@ -18,7 +18,8 @@
       <li><a href="index.php">Home</a></li>
       <li><a href="#">Help</a></li>
       <li><a href="#">Contact</a></li>
-      <li><a href="#">About us</a></li>
+      <li class="about"><a href="#">About<a></li>
+      <li class="aboutus"><a href="#">About us</a></li>
     </ul>
    </div>
 
@@ -27,6 +28,7 @@
         <section class="section-default">
           <h1 class="sign">Signup</h1>
           <?php
+          error_reporting(0);
             if (isset($_GET['error'])) {
               if ($_GET['error'] == "emptyfields") {
                 echo '<p class="signuperror">Fill in all fields!</p>';
